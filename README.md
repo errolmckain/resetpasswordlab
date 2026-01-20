@@ -1,35 +1,29 @@
 # Password Reset Lab
-Simple lab showing how to password reset an account.
+Suzanne Nelly, a worker at Spotlite Cleaning, forgot her password to her computer. She notifies the adminstrator and they take care of it.
 
 <h2>Prerequisites </h2> Window Server set up VMWare/Virtualbox <br/> Second VM for Employee or Client<br/>
 <h2>Steps</h2>
-<p>
-  <b>1.) Open Active Directory Users and Computers</b><br/>
-<p align="left">
-<img><br/>
-<p align="center">
-  <b>2.)Creating New Resource Group</b><br/>
-<p align="left">
--Once logged in, redirect to the Home portal for Microsoft Azure. Under 'Azure services' select 'Resources Groups'. Select 'Create a resource'. Name your resource group whatever you'd like, I named mine "VMs”. Select 'Review + Create'. Once created, redirect back to the Home portal.<br/>
-<p align="center">
-  <b>3.)Creating Azure VM (Windows Server Database 2022)</b><br/>
-<p align="left">
--Start in the Azure Home portal. Under 'Azure services' Select 'Virtual Machines', select 'create'. Under the 'Basics' tab select the resources group you've just created in the previous step. Under 'Instance details', name your virtual machine, I'll be naming mine "WorkLab ''. Select the region corresponding to the resource group region you previously created. Under 'Image' select 'Windows Server 2022 Datacenter'. Scroll down and select the size you would like, I selected the 'Standard_D2s_v3' option. Under 'Administrator account' create your user name and password. *IMPORTANT* Leave RDP 3389 (Remote Desktop Protocol) open to access your VM later. (optional) Go through other tabs and review, this is completely optional. Select 'Review + create' and wait for the VM to be created.<br/>
-<p align="center">
-  <b>4.)Start up Azure VM</b><br/>
-<p align="left">
--Redirect back to Azure Home portal. Under 'Azure services' select 'Virtual machines'. Now the VM you just created should be there. Hover your mouse over the name of your VM under the 'Names' tab. A pop-up will appear and you will have the options of 'View', 'Start', 'Restart', and details of the machine below. Select 'Start' and your machine will be up. Remain on the 'Virtual machines' page for the next step<br/>
-<p align="center">
-  <b>5.)Connect to Azure VM using Remote Desktop Connection</b><br/>
-<p align="left">
--On the taskbar of your pc type 'Remote Desktop Connection' and open the application. Under the 'Computer' option, type the IP of the Azure VM you created. This can be found on the 'Virtual machines' service under the 'Public IP address' tab. Once typed in, select connect and login to your account. Congratulations you're now accessing your own Azure VM desktop!<br/>
-<p align="center">
-  <b>6.)Open up Microsoft Edge and install Jira application</b><br/>
-<p align="left">
--Select the Windows icon on the bottom left of your screen and select 'Microsoft edge'. Search up 'Jira' and select the web link "https://www.atlassian.com/software/jira". <br/>
-<p align="center">
-  <b>7.)Create Jira account and login</b><br/>
-<p align="center">
-  <b>8.)Learn Jira</b><br/> 
-<p align="left">
--Enjoying furthering your work skill sets!<br/>
+<br>
+  <b>1.) Open Active Directory Users and Computers.</b><br/>
+  <img width="1920" height="1032" alt="Screenshot 2026-01-19 223104" src="https://github.com/user-attachments/assets/09b8acb7-5fde-4b99-baf8-f50e12c9da51" />
+  <br/><br/>
+<b>2.) Locate the User Locked Out/Reset Password.</b><br/>
+<img width="1920" height="1032" alt="Screenshot 2026-01-19 223135" src="https://github.com/user-attachments/assets/1997234a-e804-4fc5-9749-b091e004c3af" />
+<br/><br/>
+<b>3.) Right-click and Press "Reset Password".</b><br/>
+<img width="1920" height="1032" alt="Screenshot 2026-01-19 223558" src="https://github.com/user-attachments/assets/3c6eeea6-f427-4541-9597-c309db31580f" />
+<br/><br/>
+<b>4.) Once prompted, create a new temporary password that will be changed at next logon.</b><br/>
+<img width="1920" height="1032" alt="Screenshot 2026-01-19 223627" src="https://github.com/user-attachments/assets/c2d19a99-6558-4e0c-861f-0a3f1633ca9e" />
+<br>
+<img width="1920" height="1032" alt="Screenshot 2026-01-19 224035" src="https://github.com/user-attachments/assets/a0f7f1a0-0869-4803-a53a-80dc7b9c2c84" />
+<br><br>
+<b> 5.) Employee logs in with Temporary Password. </b><br/>
+<img width="1936" height="1048" alt="Screenshot 2026-01-19 224101" src="https://github.com/user-attachments/assets/dca079b4-0379-4d1e-bc07-7085ef47e06f" />
+<br><br>
+  <b> 6.)Password is changed and employee is prompted to change password. </b><br/>
+<img width="1936" height="1048" alt="Screenshot 2026-01-19 224206" src="https://github.com/user-attachments/assets/7b7fb479-c36c-43f9-a048-4662639d266c" />
+<br><br>
+<b> 7.)Employee can access their account!</b><br/>
+<img width="1936" height="1048" alt="Screenshot 2026-01-19 224408" src="https://github.com/user-attachments/assets/6eaa601b-85ab-4505-ac4a-6838779af37f" />
+
